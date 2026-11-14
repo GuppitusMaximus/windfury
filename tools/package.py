@@ -6,7 +6,7 @@ import zipfile
 root = Path(__file__).resolve().parents[1]
 out = root / 'dist'
 out.mkdir(exist_ok=True)
-archive = out / 'Windfury-1.0.0.zip'
+archive = out / 'Windfury-1.0.1.zip'
 with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED) as package:
     for path in sorted((root / 'Windfury').rglob('*')):
         if path.is_file():

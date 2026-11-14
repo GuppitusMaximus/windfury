@@ -15,6 +15,10 @@ loader:SetScript("OnEvent", function(self, _, name)
   if type(WindfuryDB) ~= "table" then WindfuryDB = {} end
   if type(WindfuryDB.cfg) ~= "table" then WindfuryDB.cfg = {} end
   if type(WindfuryDB.debug) ~= "table" then WindfuryDB.debug = {} end
+  local defaults = { wfJackpotKind = 5, wfHitKind = 1, wfSlots = false, wfBurst = false }
+  for key, value in pairs(defaults) do
+    if WindfuryDB.cfg[key] == nil then WindfuryDB.cfg[key] = value end
+  end
   ns.db, ns.cfg = WindfuryDB, WindfuryDB.cfg
   self:UnregisterEvent("ADDON_LOADED")
 end)

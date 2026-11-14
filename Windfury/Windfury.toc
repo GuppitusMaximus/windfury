@@ -2,7 +2,7 @@
 ## Title: Windfury
 ## Notes: Windfury celebrations with goblin reels, coins, impact sounds and jackpots. For the Forever client.
 ## Author: GuppitusMaximus
-## Version: 1.0.0
+## Version: 1.0.1
 ## SavedVariables: WindfuryDB
 
 Core.lua

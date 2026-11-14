@@ -4,7 +4,7 @@ Windfury celebrations for shamans on the **World of Warcraft Forever client** (I
 
 ## Install
 
-1. [Download Windfury-1.0.0.zip](https://github.com/GuppitusMaximus/windfury/releases/latest/download/Windfury-1.0.0.zip) from Releases.
+1. [Download Windfury-1.0.1.zip](https://github.com/GuppitusMaximus/windfury/releases/latest/download/Windfury-1.0.1.zip) from Releases.
 2. Fully quit WoW, then extract the ZIP into `_forever_/Interface/AddOns/`.
 3. Check that the path is `AddOns/Windfury/Windfury.toc`, without an extra enclosing folder.
 4. Start WoW, enable **Windfury** in the AddOns list, and type `/wf test`.
@@ -21,6 +21,8 @@ If you also use Fishmonger, run `/fm wf off` to disable its built-in celebration
 - Optional large WINDFURY text, gold flash, scrolling combat text, and a brief floating-number size increase with restoration.
 - Experimental nearby hit amounts on the reels.
 - Independent toggles and settings saved between sessions.
+
+New installations default to **Windfury storm** and **Original deep hit**, with slot reels and the large WINDFURY text disabled. Existing saved choices are preserved. Enable these visual effects in `/wf` whenever you like.
 
 ## Commands
 

@@ -5,7 +5,7 @@ function ns.Secret(value)
 end
 
 function ns.Print(message)
-  print("|cff33ccffWindfury|r: " .. message)
+  print("|cff33ccffShambaGamba WindFury Proc|r: " .. message)
 end
 
 local loader = CreateFrame("Frame")

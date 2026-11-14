@@ -1,8 +1,8 @@
 ## Interface: 16001
-## Title: Windfury
+## Title: ShambaGamba WindFury Proc
 ## Notes: Windfury celebrations with goblin reels, coins, impact sounds and jackpots. For the Forever client.
 ## Author: GuppitusMaximus
-## Version: 1.0.1
+## Version: 1.0.2
 ## SavedVariables: WindfuryDB
 
 Core.lua

@@ -458,7 +458,7 @@ ns.windfurySlots = (function()
     f.flash = f.useGoblinArt and f.gold or f.flatFlash
     if not f.useGoblinArt then
       for _, coin in ipairs(f.coins) do coin.texture:SetAtlas("coin-gold") end
-      print("|cff33ccffWindfury|r: New Windfury art was unavailable. Fully quit and reopen WoW to load it.")
+      print("|cff33ccffShambaGamba WindFury Proc|r: New Windfury art was unavailable. Fully quit and reopen WoW to load it.")
     end
     if ns.db then
       ns.db.debug = ns.db.debug or {}
@@ -908,7 +908,7 @@ ns.windfuryCelebration = (function()
     Outline(panel, C.accent)
     local title = panel:CreateFontString(nil, "OVERLAY", "GameFontNormal")
     title:SetPoint("TOPLEFT", 14, -12)
-    title:SetText("Windfury")
+    title:SetText("ShambaGamba WindFury Proc")
     title:SetTextColor(C.accent[1], C.accent[2], C.accent[3])
     local close = FlatButton(panel, "x", 20, 20)
     close:SetPoint("TOPRIGHT", -8, -8)

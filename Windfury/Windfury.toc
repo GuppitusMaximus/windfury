@@ -1,0 +1,9 @@
+## Interface: 16001
+## Title: Windfury
+## Notes: Windfury celebrations with goblin reels, coins, impact sounds and jackpots. For the Forever client.
+## Author: GuppitusMaximus
+## Version: 1.0.0
+## SavedVariables: WindfuryDB
+
+Core.lua
+Windfury.lua
